@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std ;
+int main(){
+char a;
+cout <<"is CAPTAIN CRUNCH  is here ?";
+cin>>a;
+if (a=='y')
+{
+cout<<" welcome mryash  the cap. crunch ";
+}
+if (a=='n')
+{
+cout<<"sorry    only  captain crunch is allowed ";
+return 0;
+}
+return 0;
+}
